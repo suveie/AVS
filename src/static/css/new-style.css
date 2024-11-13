@@ -1,0 +1,47 @@
+/* new-style.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+}
+
+.card {
+    background-color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 2rem;
+}
+
+.tagline {
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: #2c3e50;
+}
+
+input.form-control {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+input.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0,123,255,0.5);
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.container {
+    margin-top: 100px;
+}
